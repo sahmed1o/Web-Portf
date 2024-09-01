@@ -149,8 +149,8 @@
 		   autoplay: true,
 		   loop:true,
 		   margin:0,
-		   nav:false,
-		   dots: false,
+		   nav:true,
+		   dots: true,
 		   autoHeight: true,
 		   items: 1,
 		   navText: [
