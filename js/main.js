@@ -149,7 +149,23 @@
 		   autoplay: true,
 		   loop:true,
 		   margin:0,
-		   nav:true,
+		   nav:false,
+		   dots: false,
+		   autoHeight: true,
+		   items: 1,
+		   navText: [
+		      "<i class='icon-arrow-left3 owl-direction'></i>",
+		      "<i class='icon-arrow-right3 owl-direction'></i>"
+	     	]
+		});	
+		var owl3 = $('.owl-carousel4');
+		owl3.owlCarousel({
+			animateOut: 'fadeOut',
+		   animateIn: 'fadeIn',
+		   autoplay: true,
+		   loop:true,
+		   margin:0,
+		   nav:false,
 		   dots: true,
 		   autoHeight: true,
 		   items: 1,
